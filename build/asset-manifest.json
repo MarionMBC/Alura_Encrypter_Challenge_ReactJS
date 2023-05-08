@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cb4ebcc9.css",
+    "main.js": "/static/js/main.b95a70cb.js",
+    "static/media/Muñeco.svg": "/static/media/Muñeco.cd57497a937c57681e0c30c45b9d3db9.svg",
+    "static/media/alura_logo.svg": "/static/media/alura_logo.485da93e8dd21ce3fedf11ff3cb62b57.svg",
+    "index.html": "/index.html",
+    "main.cb4ebcc9.css.map": "/static/css/main.cb4ebcc9.css.map",
+    "main.b95a70cb.js.map": "/static/js/main.b95a70cb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb4ebcc9.css",
+    "static/js/main.b95a70cb.js"
+  ]
+}
