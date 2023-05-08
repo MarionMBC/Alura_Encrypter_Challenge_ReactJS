@@ -24,7 +24,7 @@ function App() {
                             <p className='self-center'>Solo letras minúsculas y sin acentos</p>
                         </div>
                         <div
-                            className={"flex px-5 flex-col grow justify-center items-between sm:flex-row md:justify-between"}>
+                            className={"flex px-5 flex-col grow justify-center items-between sm:flex-row justify-center md:justify-between"}>
                             <ButtonCustom text={"Encriptar"} outlined={false}></ButtonCustom>
                             <ButtonCustom text={"Desencriptar"} outlined={true}></ButtonCustom>
                         </div>
