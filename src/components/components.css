@@ -1,0 +1,31 @@
+.btn-blue {
+    background-color: #0A3871;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+
+}
+
+.btn-blue:hover {
+    background-color: #072B61;
+}
+
+.btn-blue-outline {
+    background-color: #FFFFFF;
+    color: #072B61;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    border: #072B61 1px solid;
+
+
+
+}
+
+.btn-blue-outline:hover {
+    background: #EFF1FA;
+}

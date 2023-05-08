@@ -1,0 +1,12 @@
+.text-custom-color {
+    color: #0A3871;
+    ;
+}
+
+
+
+textarea::placeholder {
+    color: #0A3871;
+}
+
+
