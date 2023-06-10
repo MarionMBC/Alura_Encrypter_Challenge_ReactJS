@@ -6,9 +6,10 @@ phases:
       - npm install
   build:
     commands:
-      - npm run build 
-      - aws s3 cp build/syncpro.zip s3://syncpro-bucket/syncpro.zip
-  
+      - npm run build
+      - zip -r syncpro.zip build/*
+      - aws s3 cp syncpro.zip s3://syncpro-bucket/syncpro.zip
   post_build:
     commands:
+      - ssh ubuntu@18.117.185.57 "sudo aws s3 cp s3://syncpro-bucket/syncpro.zip /tmp/syncpro.zip"
       - ssh ubuntu@18.117.185.57 "sudo unzip /tmp/syncpro.zip -d /var/www/html"
