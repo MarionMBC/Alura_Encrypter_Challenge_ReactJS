@@ -7,7 +7,4 @@ phases:
   build:
     commands:
       - npm run build 
-  post_build:
-    commands:
-      - aws s3 cp --recursive ./build s3://www.oncloudconsulting/
-      - aws cloudfront create-invalidation --distribute-id E3F6GML0BBGYIR --path /\*
+  
