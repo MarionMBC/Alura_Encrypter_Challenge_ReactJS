@@ -10,8 +10,8 @@ phases:
   
   post_build:
     commands:
-      - zip -r myapp.zip dist/*
+      - zip -r syncpro.zip build/*
 
 artifacts:
   files:
-    - myapp.zip
+    - syncpro.zip
