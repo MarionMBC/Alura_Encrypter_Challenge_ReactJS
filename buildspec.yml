@@ -8,3 +8,10 @@ phases:
     commands:
       - npm run build 
   
+  post_build:
+    commands:
+      - zip -r myapp.zip dist/*
+
+artifacts:
+  files:
+    - myapp.zip
